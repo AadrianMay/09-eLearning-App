@@ -51,39 +51,45 @@ Bei den Anforderungen an die Entwicklungsumgebung sind folgende Festlegungen zu 
 
 | Anforderungen an die Entwicklungsumgebung | Beschreibung |
 | --- | --- |
-| /R90 |  Visualstudio 2017 Community |
-| /R100 | Computer/Notebook |
-| /R110 | GitHub, Trello, Skype |  
-| /R120 | Datenbankschnittstelle (DBMS) |  
+| /R90/ |  Visualstudio 2017 Community |
+| /R100/ | Computer/Notebook |
+| /R110/ | GitHub, Trello, Skype |  
+| /R120/ | Datenbankschnittstelle (DBMS) |  
 
 # 3 Kontext und Überblick
 Festlegung der relevanten Systemumgebung (Kontext) und Überblick über das System:
 
-- /K10/(Student) User Login <<extend>> Registrieren
-- /K20/(Student) Kurs(Modul) auswählen
-- /K30/(Student) Abfrage starten
-- /K40/(Student) Fortschritt ansehen
-- /K50/(Student) User Logout
+| Aus Sicht der Studenten | Beschreibung |
+| --- | --- |
+| /K10/(Student) | User Login <<extend>> Registrieren |
+| /K20/(Student) | Kurs(Modul) auswählen |
+| /K30/(Student) | Abfrage starten |
+| /K40/(Student) | Fortschritt ansehen |
+| /K50/(Student) | User Logout |
 
-- /K50/(Admin) User Login
-- /K60/(Admin) Kurs(Modul) anlegen/bearbeiten/löschen
-- /K70/(Admin) User anlegen/bearbeiten/löschen
-- /K80/(Admin) Fortschritt zurücksetzen
-- /K90/(Admin) User Logout
+| Aus Sicht der Admins | Beschreibung |
+| --- | --- |
+| /K50/(Admin) | User Login |
+| /K60/(Admin) | Kurs(Modul) anlegen/bearbeiten/löschen |
+| /K70/(Admin) | User anlegen/bearbeiten/löschen |
+| /K80/(Admin) | Fortschritt zurücksetzen |
+| /K90/(Admin) | User Logout |
 
 *Zum Beispiel auch: Übergreifendes Use Case Diagramm.*
 
 # 4 Funktionale Anforderungen
 Die Kernfunktionalität des Systems ist aus Auftraggebersicht auf oberster Abstraktionsebene zu beschreiben. Auf Detailbeschreibungen ist zu verzichten:
 
-- /F10/ Das System muss dem Anwender (Studenten) die Möglichkeit bieten sich zu registrieren, um sich in die Anwendungen einloggen zu können.
-- /F20/ Das System muss dem Anwender (Studenten) die Möglichkeit bieten sich einzuloggen, um die Anwendung nutzen zu können.
-- /F30/ Das System muss dem Anwender (Studenten) die Möglichkeit bieten verschiedene Kurse auswählen zu können, um die gewünschten Abfragen durchführen zu können.
-- /F40/ Das System muss dem Anwender (Studenten) die Möglichkeit bieten sich auszuloggen, damit kein anderer auf die Daten des Anwender zu greifen kann.
-- /F50/ Das System soll dem Anwender (Studenten) die Möglichkeit bieten seinen Fortschritt zu speichern, um eine Übersicht zu erhalten bzw. an gewünschter Stelle fortzufahren.
-- /F60/ Das System muss dem Administrator die Möglichkeit bieten sich einzuloggen, um vollen Zugriff auf die Anwendung zu haben.
-- /F70/ Das System muss dem Administrator die Möglichkeit bieten Kurse(Module) anzulegen/zu bearbeiten/zu löschen, um die Anwendung zu vervollständigen bzw. zu aktuallisieren.
-- /F80/ Das System soll nur dem Administrator die Möglichkeit bieten vollen Zugriff auf die Anwendung zu haben, damit die Anwendung geschützt ist.
+| Funktionale Anforderungen | Beschreibung |
+| --- | --- |
+| /F10/ | Das System muss dem Anwender (Studenten) die Möglichkeit bieten sich zu registrieren, um sich in die Anwendungen einloggen zu können. |
+| /F20/ | Das System muss dem Anwender (Studenten) die Möglichkeit bieten sich einzuloggen, um die Anwendung nutzen zu können. |
+| /F30/ | Das System muss dem Anwender (Studenten) die Möglichkeit bieten verschiedene Kurse auswählen zu können, um die gewünschten Abfragen durchführen zu können. |
+| /F40/ | Das System muss dem Anwender (Studenten) die Möglichkeit bieten sich auszuloggen, damit kein anderer auf die Daten des Anwender zu greifen kann.
+| /F50/ | Das System soll dem Anwender (Studenten) die Möglichkeit bieten seinen Fortschritt zu speichern, um eine Übersicht zu erhalten bzw. an gewünschter Stelle fortzufahren. |
+| /F60/ | Das System muss dem Administrator die Möglichkeit bieten sich einzuloggen, um vollen Zugriff auf die Anwendung zu haben. |
+| /F70/ | Das System muss dem Administrator die Möglichkeit bieten Kurse(Module) anzulegen/zu bearbeiten/zu löschen, um die Anwendung zu vervollständigen bzw. zu aktuallisieren. |
+| /F80/ | Das System soll nur dem Administrator die Möglichkeit bieten vollen Zugriff auf die Anwendung zu haben, damit die Anwendung geschützt ist. |
 
 *Zum Beispiel auch: Beischreibung einzelner Use Cases in Textform.*
 
@@ -93,15 +99,18 @@ Wenn bereits möglich, sind die funktionalen Anforderungen nach Statik, Dynamik 
 Es sollte anhand einer Tabelle eine verfeinerte Qualitätszielbestimmung für das System vorgenommen werden. Es eignen sich dazu die Qualitätsmerkmale der ISO/IEC 9126–1.
 Einzelne Qualitätsanforderungen können unter Bezug auf die ISO/IEC 9126–1 wie folgt festgelegt werden:
 
+| Qualitätsanforderung Funktionalität (Sicherheit)| Beschreibung |
+| --- | --- |
+| /QFS10/ | Die Anwender dürfen keinen Zugriff auf Daten anderer User haben.
+| /QFS20/ | Die Anwender müssen ein ausreichend starkes Passwort wählen (Groß- und Kleinschreibung, Ziffern, Sonderzeichen).
+| /QFS30/ | Die Anwender sollen die Möglichkeit haben ihr Passwort zurücksetzen zu können.
 
-- /QFS10/ Die Anwender dürfen keinen Zugriff auf Daten anderer User haben.
-- /QFS20/ Die Anwender müssen ein ausreichend starkes Passwort wählen (Groß- und Kleinschreibung, Ziffern, Sonderzeichen).
-- /QFS30/ Die Anwender sollen die Möglichkeit haben ihr Passwort zurücksetzen zu können.
-
-- /QBE10/ Die Anwendung soll schlicht und übersichtlicht gestaltet sein, damit die Anwender sich schnell zu recht finden.
-- /QBE20/ Die Anwendung muss performant sein.
-- /QBE30/ Die Anwendung soll in der deutschen Sprachen sein.
-- /QBE40/ Die Anwendung soll zahlreiche Kurse (Module) und Kontrollfragen enthalten.
+| Qualitätsanforderung  Benutzbarkeit (Erlernbarkeit) | Beschreibung |
+| --- | --- |
+| /QBE10/ | Die Anwendung soll schlicht und übersichtlicht gestaltet sein, damit die Anwender sich schnell zu recht finden. |
+| /QBE20/ | Die Anwendung muss performant sein. |
+| /QBE30/ | Die Anwendung soll in der deutschen Sprachen sein. |
+| /QBE40/ | Die Anwendung soll zahlreiche Kurse (Module) und Kontrollfragen enthalten. |
 
 # 6 Abnahmekriterien
 Abnahmekriterien legen fest, wie Anforderungen bei der Abnahme auf ihre Realisierung überprüft werden können.
