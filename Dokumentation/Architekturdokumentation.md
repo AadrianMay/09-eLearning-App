@@ -89,6 +89,9 @@ gehören die
 
 - siehe: #3_Fachlicher_Kontext_Frond-_Backend.pdf
 
+![3_Fachlicher_Kontext_Frond-_Backend](%233_Fachlicher_Kontext_Frond-_Backend.png)
+
+
 ## Technischer Kontext
 
 - siehe: #3_Technischer Kontext_UML_Deployment_Diagramm.pdf
@@ -116,7 +119,7 @@ Schnittstellen&gt;**
 
 # 5 Bausteinsicht
 
-- siehe: #5_Bausteinsicht.pdf
+![#5_Bausteinsicht](%235_Bausteinsicht.png)
 
 Ebene-1
 eLearning-App Whitebox-Sicht
