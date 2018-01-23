@@ -87,14 +87,13 @@ gehören die
 
 ## Fachlicher Kontext
 
-- siehe: #3_Fachlicher_Kontext_Frond-_Backend.pdf
-
 ![3_Fachlicher_Kontext_Frond-_Backend](%233_Fachlicher_Kontext_Frond-_Backend.png)
 
 
 ## Technischer Kontext
 
-- siehe: #3_Technischer Kontext_UML_Deployment_Diagramm.pdf
+![#3_Technischer Kontext_UML_Deployment_Diagramm](%233_Technischer Kontext_UML_Deployment_Diagramm.png)
+
 
 Beispielsweise UML Deployment-Diagramme mit den Kanälen zu
 Nachbarsystemen, begleitet von einer Tabelle, die Kanäle auf
