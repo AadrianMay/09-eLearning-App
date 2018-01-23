@@ -120,13 +120,17 @@ Schnittstellen&gt;**
 
 ![#5_Bausteinsicht](%235_Bausteinsicht.png)
 
-Ebene-1
-eLearning-App Whitebox-Sicht
-• Zweck / Verantwortlichkeit: Gesamte eLearning Webanwendungen
-• Schnittstelle(n): keine Nachbarsysteme (integrierte Datenbank)
-• Erfüllte Anforderungen: 
-• Ablageort / Datei: 
-• Sonstige Verwaltungsinformation: Autor, Version, Datum, Änderungshistorie
+| Rolle | Kontakt | Erwartungshaltung |
+| --- | --- | --- |
+
+##Ebene-1 eLearning-App Whitebox-Sicht
+| Zweck / Verantwortlichkeit: | Schnittstelle(n): | Erfüllte Anforderungen: | Ablageort / Datei | Sonstige Verwaltungsinformation:
+| --- | --- | --- |
+| Gesamte eLearning Webanwendungen |
+| keine Nachbarsysteme (integrierte Datenbank) |
+| Erfüllte Anforderungen: |
+| Ablageort / Datei: |
+| Sonstige Verwaltungsinformation: Autor, Version, Datum, Änderungshistorie |
 
 Ebene-2
 Log-In Whitebox-Sicht
