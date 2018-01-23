@@ -83,7 +83,7 @@ Organisatorische Vorgaben
 
 - siehe: #3_Kontextabgrenzung_Kontextdiagramm.pdf
 
-![Kontextabgrenzung_Kontextdiagramm](%233_Kontextabgrenzung_Kontextdiagramm.pdf)
+![Kontextabgrenzung_Kontextdiagramm](%233_Kontextabgrenzung_Kontextdiagramm.png)
 
 ## Fachlicher Kontext
 
