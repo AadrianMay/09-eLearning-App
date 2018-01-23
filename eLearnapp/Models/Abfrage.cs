@@ -8,7 +8,7 @@ namespace eLearnapp.Models
 {
     public class Abfrage
     {
-        public int Id { get; set; }
+        public int AbfrageID { get; set; }
         [Required]
         [MaxLength(500)]
         public string Frage { get; set; }

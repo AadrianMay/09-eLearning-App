@@ -45,7 +45,7 @@ namespace eLearnapp.Repositories
 
         public Abfrage UpdateAbfrage(Abfrage abfrage)
         {
-            var AbfrageToUpdate = _db.Abfragen.Find(abfrage.Id);
+            var AbfrageToUpdate = _db.Abfragen.Find(abfrage.AbfrageID);
 
             AbfrageToUpdate.Frage = abfrage.Frage;
             AbfrageToUpdate.Antwort = abfrage.Frage;

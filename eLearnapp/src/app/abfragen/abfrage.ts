@@ -1,5 +1,5 @@
 ﻿export class Abfrage {
-    id: number;
+    AbfrageID: number;
     frage: string = "";
     antwort: string = "";
     kursID: number;

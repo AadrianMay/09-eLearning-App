@@ -1,180 +1,180 @@
 ﻿[
   {
-    "Id": 6,
+    "AbfrageID": 6,
     "Frage": "Wie ist der Aufbau der main-Methode?",
     "Antwort": "public static void main(String[] args)",
     "KursID": 1
   },
   {
-    "Id": 7,
+    "AbfrageID": 7,
     "Frage": "Welcher Datentyp liegt vor, wenn nur die Ausdrücke true und false mögich sind?",
     "Antwort": "boolean",
     "KursID": 1
   },
   {
-    "Id": 8,
+    "AbfrageID": 8,
     "Frage": "Wie werden Klassen in java definiert?",
     "Antwort": "Klassen sind die Baupläne für Objekte. Java Klassen werden durch das Schlüsselwort class deklariert. Eine Klassendefinition kann Attribute (man unterscheidet hierbei zwischen Instanz- und Klassenvariablen), Konstruktoren und Methoden enthalten. Durch Instanzvariablen werden die Eigenschaften eines Objektes beschrieben",
     "KursID": 1
   },
   {
-    "Id": 9,
+    "AbfrageID": 9,
     "Frage": "In welchem Datentyp legen in der Regel set-Methoden vor?",
     "Antwort": "Im Datentyp void",
     "KursID": 1
   },
   {
-    "Id": 10,
+    "AbfrageID": 10,
     "Frage": "Was wird mit public, protected und private bewirkt?",
     "Antwort": "Dadurch werden beispielsweise Zugriffsrechte von Methoden gemanaged",
     "KursID": 1
   },
   {
-    "Id": 11,
+    "AbfrageID": 11,
     "Frage": "Welche Funktionen bietet die Anweisung ALTER TABLE?",
     "Antwort": "Mit der ALTER TABLE-Anweisung können nachträglich für eine bereits bestehende Tabelle, Spalten oder auch andere Optionen verändert, gelöscht oder hinzugefügt werden",
     "KursID": 2
   },
   {
-    "Id": 12,
+    "AbfrageID": 12,
     "Frage": "Was versteht man unter Normalisierung?",
     "Antwort": "Unter Normalisierung eines relationalen Datenschemas (Tabellenstruktur) versteht man die Aufteilung von Attributen (Tabellenspalten) in mehrere Relationen (Tabellen) gemäß den Normalisierungsregeln (s. u.), so dass eine Form entsteht, die keine vermeidbaren Redundanzen mehr enthält",
     "KursID": 2
   },
   {
-    "Id": 13,
+    "AbfrageID": 13,
     "Frage": "Wann liegt eine Tabelle in der 1.Normalform (1NF) vor?",
     "Antwort": "Die Erste Normalform (1NF) ist dann gegeben, wenn alle Informationen in einer Tabelle atomar vorliegen",
     "KursID": 2
   },
   {
-    "Id": 14,
+    "AbfrageID": 14,
     "Frage": "Wann befindet sich eine Tabelle in der 2.Normalform (2NF)?",
     "Antwort": "Ein Relationstyp (Tabelle) befindet sich genau dann in der zweiten Normalform (2NF), wenn er sich in der ersten Normalform (1NF) befindet und jedes Nichtschlüsselattribut von jedem Schlüsselkandidaten voll funktional abhängig ist.",
     "KursID": 2
   },
   {
-    "Id": 15,
+    "AbfrageID": 15,
     "Frage": "Was ist notwendig, damit sich eine Tablle in der 3.Normalform (3NF) befindet?",
     "Antwort": "Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn er sich in der zweiten Normalform (2NF) befindet und kein Nichtschlüsselattribut transitiv von einem Kandidatenschlüssel abhängt.",
     "KursID": 2
   },
   {
-    "Id": 116,
+    "AbfrageID": 116,
     "Frage": "Wie lässt sich die lineare Abschreibung pro Jahr berechnen?",
     "Antwort": "Abschreibungsbetrag = Anschaffungskosten/Nutzungsdauer",
     "KursID": 3
   },
   {
-    "Id": 17,
+    "AbfrageID": 17,
     "Frage": "Wie ist die lineare Abschreibung definiert?",
     "Antwort": "Die lineare Abschreibung ist die am häufigsten angewandte Abschreibungsmethode. Sie geht davon aus, dass die Abnutzung bzw. der Wertverlust konstant über die Jahre ist. Im Jahr der Anschaffung bzw. Herstellung ist eine zeitanteilige Abschreibung auf Monatsbasis vorzunehmen",
     "KursID": 3
   },
   {
-    "Id": 18,
+    "AbfrageID": 18,
     "Frage": "Wie ist die Gewinn- und Verlustrechnung (GuV) zu definieren?",
     "Antwort": "Die lineare Abschreibung ist die am häufigsten angewandte Abschreibungsmethode. Sie geht davon aus, dass die Abnutzung bzw. der Wertverlust konstant über die Jahre ist. Im Jahr der Anschaffung bzw. Herstellung ist eine zeitanteilige Abschreibung auf Monatsbasis vorzunehmen",
     "KursID": 3
   },
   {
-    "Id": 19,
+    "AbfrageID": 19,
     "Frage": "Wie wird der Saldo defniert?",
     "Antwort": "Differenzbetrag, der sich nach Aufrechnung der Soll- und Habenseite eines Kontos ergibt",
     "KursID": 3
   },
   {
-    "Id": 20,
+    "AbfrageID": 20,
     "Frage": "Gibt es eine feste Regel wann im Soll und wann im Haben gebucht werden muss?",
     "Antwort": "Bei versch. Kontoarten wie bspw. Aufwandskonten und Ertragskonten, sowie aktiven/passiven Bestandskonten gibt es jeweils eigene Regelungen",
     "KursID": 3
   },
   {
-    "Id": 21,
+    "AbfrageID": 21,
     "Frage": "Was passiert in der ABC-Analyse?",
     "Antwort": "ABC-Analyse. Die ABC-Analyse ist eine betriebswirtschaftliche Methode zur Einteilung von Objekten in drei Kategorien (A, B oder C). Die Objekte werden mit einer für die Analyse relevanten Kenngröße beschrieben und dann nach dieser Kenngröße sortier",
     "KursID": 4
   },
   {
-    "Id": 22,
+    "AbfrageID": 22,
     "Frage": "Wie wird Just-in-time-Produktion definiert?",
     "Antwort": "Just-in-time-Produktion (JIT) oder auch bedarfssynchrone Produktion bezeichnet in der Produktionswirtschaft ein logistikorientiertes, dezentrales Organisations- und Steuerungskonzept,[1] bei dem nur das Material in der Stückzahl und zu dem Zeitpunkt produziert und geliefert wird, wie es auch tatsächlich zur Erfüllung der Kundenaufträge benötigt wird",
     "KursID": 4
   },
   {
-    "Id": 23,
+    "AbfrageID": 23,
     "Frage": "Wie werden Stückkosten berechnet?",
     "Antwort": "Stückkosten = Losauflagekosten/Losgröße + Materialstückkosten + Fertigungsstückkosten",
     "KursID": 4
   },
   {
-    "Id": 24,
+    "AbfrageID": 24,
     "Frage": "Wie kann man Kapazität definieren?",
     "Antwort": "Kapazität ist die maximal dem Produktionsprozess in einem bestimmten Zeitraum zur Verfügung stehende Anzahl an Personal, Maschinen, Werkzeugen und Räumen",
     "KursID": 4
   },
   {
-    "Id": 25,
+    "AbfrageID": 25,
     "Frage": "Wie definiert man in der Produktion ein Los?",
     "Antwort": "Ein Los ist ein geschlossener Posten einer Produktart oder einer Baugruppe, der ohne Unterbrechung durch die Produktion anderer Produktarten erzeugt wird",
     "KursID": 4
   },
   {
-    "Id": 26,
+    "AbfrageID": 26,
     "Frage": "Wobei geht es beim Tyrannosaurus-Effekt?",
     "Antwort": "Der Tyrannosaurus-effekt ist eine der ewigen Projektfallen. Dabei gibt es eine plötzliche Änderung durch einen Topmanager, der vom eigentlichen Projekt weniger Ahnung hat aber durch eingreifen die Erfüllung des Projekts gefährdet",
     "KursID": 5
   },
   {
-    "Id": 26,
+    "AbfrageID": 26,
     "Frage": "Welche Begriffe spielen im Zusammenhang mit Information in der Inforamtionswirtschaft eine Rolle?",
     "Antwort": "subjektiver/objektiver Informationsbedarf, sowie Informationsangebot/-nachfrage und Informationsstand/-bedürfnis",
     "KursID": 5
   },
   {
-    "Id": 27,
+    "AbfrageID": 27,
     "Frage": "Welchen Sinn hat eine Balanced Scorecard?",
     "Antwort": "BBalanced Scorecard ist ein Konzept zur Messung, Dokumentation und Steuerung der Aktivitäten eines Unternehmens oder einer Organisation im Hinblick auf seine Vision und Strategie.",
     "KursID": 5
   },
   {
-    "Id": 28,
+    "AbfrageID": 28,
     "Frage": "Was verbirgt die ABkürzung COBIT?",
     "Antwort": "Control Objectives for Information and Related Technology",
     "KursID": 5
   },
   {
-    "Id": 29,
+    "AbfrageID": 29,
     "Frage": "Welche Sichten unterscheidet man im ARIS-Konzept?",
     "Antwort": "Organisationssicht, Datensicht, Steuerungssicht, Funktionssicht, Leistungssicht",
     "KursID": 5
   },
   {
-    "Id": 30,
+    "AbfrageID": 30,
     "Frage": "In welche Phasen unterteilt man grob E-Commerce?",
     "Antwort": "Informationsphase -> Vereinbarungsphase -> Lieferungsphase -> Servicephase",
     "KursID": 6
   },
   {
-    "Id": 31,
+    "AbfrageID": 31,
     "Frage": "Wofür steht B2C?",
     "Antwort": "Business to Consumer",
     "KursID": 6
   },
   {
-    "Id": 32,
+    "AbfrageID": 32,
     "Frage": "Welche verschiedenen Wege gibt es für Unternehmen Geld über das Web zu verdienen?",
     "Antwort": "Direkte Erlöse(Zahlung/Leistung), Indirekte Erlöse(z.b. Werbeerlöse), Transaktionsabhänigige Erlöse(z.b. Erfolgsprovision), Transaktionsunabhängige Erlöse(Hängen nicht direkt von Leistung ab), Freemium",
     "KursID": 6
   },
   {
-    "Id": 33,
+    "AbfrageID": 33,
     "Frage": "Was für elektronische Zahlungsformen existieren?",
     "Antwort": "Sofortüberweisung/Giropay, Paypal/andere Walletverfahren, Kreditkartenzahlung, App-Zahlungen(Micro-payment), Online Bank-Transfer, Digitale Währung(Bitcoin,etc.)",
     "KursID": 6
   },
   {
-    "Id": 34,
+    "AbfrageID": 34,
     "Frage": "Welche Transaktionsphasen gibt es beim Verkauf über das Web?",
     "Antwort": "Informieren/Suchen -> Vereinbaren/Kaufen -> Bezahlen -> Liefern/Service",
     "KursID": 6

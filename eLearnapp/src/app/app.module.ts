@@ -24,6 +24,8 @@ import { UsermenuComponent } from './admin/usermenu/usermenu.component';
 import { KursmenuComponent } from './admin/kursmenu/kursmenu.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { FortschrittComponent } from './users/fortschritt/fortschritt.component';
+
 
 
 @NgModule({
@@ -37,7 +39,8 @@ import { RegistrationComponent } from './registration/registration.component';
       UsermenuComponent,
       KursmenuComponent,
       LoginComponent,
-      RegistrationComponent
+      RegistrationComponent,
+      FortschrittComponent
   ],
   entryComponents: [DeleteDialogComponent],
   imports: [

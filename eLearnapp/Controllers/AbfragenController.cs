@@ -33,13 +33,13 @@ namespace eLearnapp.Controllers
                 return BadRequest(ModelState);
             }
             var result = _repository.CreateAbfrage(abfrage);
-            return CreatedAtAction("GetAbfragen", new { id = abfrage.Id }, result);
+            return CreatedAtAction("GetAbfragen", new { id = abfrage.AbfrageID }, result);
         }
 
         [HttpPut("{Id}")]
         public IActionResult Put(int Id, [FromBody] Abfrage abfrage)
         {
-            if (Id != abfrage.Id)
+            if (Id != abfrage.AbfrageID)
             {
                 return BadRequest();
             }

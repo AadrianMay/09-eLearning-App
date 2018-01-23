@@ -44,7 +44,7 @@ namespace eLearnapp.Data
                 {
                     foreach (var abfrage in abfragen.Where(x => x.KursID == kurs.KursID))
                     {
-                        abfrage.Id = 0;
+                        abfrage.AbfrageID = 0;
                         kurs.Abfrage.Add(abfrage);
                     }
                     kurs.KursID = 0;

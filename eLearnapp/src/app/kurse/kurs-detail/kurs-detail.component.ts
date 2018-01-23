@@ -7,6 +7,7 @@ import 'rxjs/add/operator/switchMap';
 import { KurseService } from '../../kurse.service';
 import { Kurs } from '../kurs';
 import { Kategorie } from '../../Kategorien/kategorie';
+import { Abfrage } from '../../Abfragen/abfrage';
 import { DeleteDialogComponent } from '../../delete-dialog.component';
 
 @Component({
@@ -16,6 +17,7 @@ import { DeleteDialogComponent } from '../../delete-dialog.component';
 })
 export class KursDetailComponent implements OnInit {
 
+    private abfrage: Abfrage;
     private kurs: Kurs;
     private kategorien: Kategorie[];
 
@@ -30,6 +32,10 @@ export class KursDetailComponent implements OnInit {
         this.route.paramMap
             .switchMap((params: ParamMap) => this.kurseService.getKurs(+params.get('kursID')))
             .subscribe(kurs => this.kurs = kurs); //den Kurs den ich zurückbekommen habe auf den aktuellen Kurs setzen
+    }
+
+    starten(): void {
+        this.kurseService.getAbfrage(this.abfrage.AbfrageID).then(() => this.router.navigate(['/users/fortschritt'])); //navigiert anschließend auf die Startseite
     }
 
     save(): void {

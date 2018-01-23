@@ -10,6 +10,7 @@ import { UsermenuComponent } from './admin/usermenu/usermenu.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { KursmenuComponent } from './admin/kursmenu/kursmenu.component';
+import { FortschrittComponent } from './users/fortschritt/fortschritt.component';
 //routen definieren
 const routes: Routes = [
     //Zu jeder Route die ich routen möchte vergebe ich einen Pfad und eine Komponente
@@ -20,7 +21,8 @@ const routes: Routes = [
     { path: 'kurs/add', component: AddKursComponent }, //neue komponente in der app.module.ts importieren
     { path: 'kurs/:kursID', component: KursDetailComponent },
     { path: 'user/:userID', component: UserDetailComponent },
-    { path: 'admin/usermenu', component: UsermenuComponent }
+    { path: 'admin/usermenu', component: UsermenuComponent },
+    { path: 'users/fortschritt', component: FortschrittComponent }
 ]
 
 //Modul konfigurieren

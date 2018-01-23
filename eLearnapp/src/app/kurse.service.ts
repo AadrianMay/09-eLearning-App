@@ -5,6 +5,7 @@ import 'rxjs/add/operator/toPromise';
 
 import { Kategorie } from "./Kategorien/kategorie";
 import { Kurs } from './kurse/kurs';
+import { Abfrage } from './abfragen/abfrage';
 import { User } from './users/user';
 
 //Aufgabe: Komplette Kommunikation zur API (Backend) kapseln
@@ -27,6 +28,18 @@ export class KurseService {
         return this.http.get(`api/kurse/${kursID}`) //backtape weil wir ein TemplateString benutzen
             .toPromise()
             .then(r => r.json() as Kurs);
+    }
+
+    getAbfrage(AbfrageID: number): Promise<Abfrage> {
+        return this.http.get(`api/abfragen/${AbfrageID}`)
+            .toPromise()
+            .then(r => r.json() as Abfrage);
+    }
+
+    getAbfragen(): Promise<Abfrage[]> {
+        return this.http.get('api/abfragen')
+            .toPromise() //
+            .then(r => r.json() as Abfrage[]);
     }
 
     getUserById(UserID: number): Promise<User> {
