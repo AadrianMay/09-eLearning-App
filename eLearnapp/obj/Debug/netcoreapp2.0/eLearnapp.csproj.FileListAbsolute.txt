@@ -20,3 +20,14 @@ C:\Users\Jari\Source\Repos\09-eLearningApp\eLearnapp\obj\Debug\netcoreapp2.0\eLe
 C:\Users\Jari\Source\Repos\09-eLearningApp\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.AssemblyInfo.cs
 C:\Users\Jari\Source\Repos\09-eLearningApp\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.dll
 C:\Users\Jari\Source\Repos\09-eLearningApp\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.pdb
+D:\Progs\c\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.deps.json
+D:\Progs\c\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.runtimeconfig.json
+D:\Progs\c\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.runtimeconfig.dev.json
+D:\Progs\c\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.dll
+D:\Progs\c\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.pdb
+D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.csprojResolveAssemblyReference.cache
+D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.csproj.CoreCompileInputs.cache
+D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.AssemblyInfoInputs.cache
+D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.AssemblyInfo.cs
+D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.dll
+D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.pdb

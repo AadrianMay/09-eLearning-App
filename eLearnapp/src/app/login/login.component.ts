@@ -15,7 +15,8 @@ import { FormControl, Validators } from '@angular/forms';
 export class LoginComponent implements OnInit {
     //KurseService injizieren
     //private users: User[];
-    private user: User;
+    private user: User = new User();
+    private users: User[];
 
     constructor(
         private kurseService: KurseService,
@@ -25,7 +26,7 @@ export class LoginComponent implements OnInit {
     }
 
     ngOnInit(): void {
-       // this.kurseService.getUsers().then(users => this.users = users);
+       this.kurseService.getUsers().then(users => this.users = users);
         this.route.paramMap
             .switchMap((params: ParamMap) => this.kurseService.getUserById(+params.get('userID')))
             .subscribe(user => this.user = user);
@@ -36,10 +37,20 @@ export class LoginComponent implements OnInit {
     }
 
     login(passwort: string, email: string): void {
-        if (this.user.email == email) {
-            if (this.user.passwort == passwort) {
-                this.router.navigate(['admin/kursmenu'])
+        var valid = false;
+        console.log(this.users.length);
+        for (var i = 0; i < this.users.length; i++) {
+            console.log(this.users[i].email);
+            console.log(this.users[i].passwort);
+            if (this.users[i].passwort == passwort && this.users[i].email == email) {
+                valid = true;
+                //TODO set session user 
+                //write current id to database ( this,users[i].id) table currentUser
             }
+
+        }
+        if (valid == true) {
+            this.router.navigate(['admin/kursmenu'])
         }
         else {
             this.router.navigate(['/'])

@@ -21,7 +21,7 @@
         <mat-hint align="end">{{user.email.length}} / 30</mat-hint>
     </mat-form-field>
     <mat-form-field class="full-widht">
-        <input matInput placeholder="Password" [formControl]="passwordFormControl" [(ngModel)]="user.password" maxlength="30" name="passwort" />
+        <input matInput placeholder="Password" [formControl]="passwordFormControl" [(ngModel)]="user.passwort" maxlength="30" name="passwort" />
         <mat-error *ngIf="passwordFormControl.hasError('required')">
             Password is <strong>required</strong>
         </mat-error>
