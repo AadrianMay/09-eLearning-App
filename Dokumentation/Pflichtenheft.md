@@ -8,16 +8,19 @@ Quelle: *Helmut Balzert, Lehrbuch der Softwaretechnik: Basiskonzepte und Require
 Beschreibung der Visionen und Ziele, die durch den Einsatz des Systems erreicht werden sollen:
 
 Visionen
-- /V10/ Eine „eLearning-App“ zu entwickeln, die dem Anwender (dem Studenten) die Möglichkeit bietet jederzeit lernen zu können
-- /V20/ Eine „eLearning-App“ zu entwickeln, die darüber hinaus leicht zu bedienen ist und somit das Lernen fördern soll.
-- /V30/ Eine „eLearning-App zu entwickeln, die eine Alternative zur Prüfungsvorbereitung bietet oder zu mindestens eine (sehr) gute Ergänzung darstellt.
 
-Ziele
-- /Z10/ Der Anwender (Student) muss jederzeit Zugriff auf die „eLearning-App“ haben. Die Anwendung soll daher zeit- und ortunabhängig sein.
-- /Z20/ Der Anwender (Student) soll die „eLearning-App“ auf allen aktuellen internetfähigen Geräten nutzen können. Die Anwendung soll plattformunabhängig sein.
-- /Z30/ Die Anwendung soll möglichst vollständig sein.
-- /Z40/ Die Anwendung soll leicht zu bedienen sein, sowohl für den Anwender als auch für den Administrator.
-- /Z50/ Die Anwendung soll den Fortschritt der Anwender speichern können.
+| Visionen | Beschreibung |
+| --- | --- |
+| /V10/ | Eine „eLearning-App“ zu entwickeln, die dem Anwender (dem Studenten) die Möglichkeit bietet jederzeit lernen zu können |
+| /V20/ | Eine „eLearning-App“ zu entwickeln, die darüber hinaus leicht zu bedienen ist und somit das Lernen fördern soll. |
+| /V30/ | Eine „eLearning-App zu entwickeln, die eine Alternative zur Prüfungsvorbereitung bietet oder zu mindestens eine (sehr) gute Ergänzung darstellt. |
+
+| Ziele | Beschreibung |
+| /Z10/ | Der Anwender (Student) muss jederzeit Zugriff auf die „eLearning-App“ haben. Die Anwendung soll daher zeit- und ortunabhängig sein. |
+| /Z20/ | Der Anwender (Student) soll die „eLearning-App“ auf allen aktuellen internetfähigen Geräten nutzen können. Die Anwendung soll plattformunabhängig sein. |
+| /Z30/ | Die Anwendung soll möglichst vollständig sein. |
+| /Z40/ | Die Anwendung soll leicht zu bedienen sein, sowohl für den Anwender als auch für den Administrator. |
+| /Z50/ | Die Anwendung soll den Fortschritt der Anwender speichern können. |
 
 # 2 Rahmenbedingungen
 Beschreibung der organisatorischen Rahmenbedingungen: Anwendungsbereiche, Zielgruppen, Betriebsbedingungen

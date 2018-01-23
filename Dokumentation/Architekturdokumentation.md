@@ -63,31 +63,9 @@ gehören die
 
 # 2 Randbedingungen
 
-**Inhalt.**
-
-Fesseln und Vorgaben, die ihre Freiheiten bezüglich Entwurf,
-Implementierung oder Ihres Entwicklungsprozesses einschränken. Diese
-Randbedingungen gelten manchmal organisations- oder firmenweit über die
-Grenzen einzelner Systeme hinweg.
-
-**Motivation.**
-
-Als Architekt sollten Sie explizit wissen, wo Ihre Freiheitsgrade
-bezüglich Entwurfsentscheidungen liegen und wo Sie Randbedingungen
-beachten müssen. Sie können Randbedingungen vielleicht noch verhandeln,
-zunächst sind sie aber da.
-
-**Form.**
-
-Einfache Tabellen der Randbedingungen mit Erläuterungen. Bei Bedarf
-unterscheiden Sie technische, organisatorische und politische
-Randbedingungen oder übergreifende Konventionen (beispielsweise
-Programmier- oder Versionierungsrichtlinien, Dokumentation- oder
-Namenskonvention)
-
 Technische Vorgaben
 
-- Programmiersprache: Java/TypeScript
+- Programmiersprache: C#/TypeScript
 - Framework: Angular
 - IDE: Visual Studio 2017
 - Zielumgebung: Plattformunabhängig (Webanwendung)
@@ -263,54 +241,3 @@ diskutierbaren und nachprüfbaren Szenarien.
 **Form.**
 
 Entweder tabellarisch oder als Freitext.
-
-# 11 Risiken und technische Schulden
-
-**Inhalt.**
-
-Eine nach Prioritäten geordnete Liste der erkannten Architekturrisiken
-und/oder technischen Schulden.
-
-**Motivation.**
-
-"Risikomanagement ist Projektmanagement für Erwachsene" (Tim Lister,
-Atlantic Systems Guild.)
-
-Unter diesem Motto sollten Sie Architekturrisiken und/oder technische
-Schulden gezielt ermitteln, bewerten und Ihren Management-Stakeholdern
-(z.B. Projektleitung, Product-Owner) transparent machen.
-
-**Form.**
-
-Liste oder Tabelle von Risiko und/oder technischen Schulden, eventuell
-mit vorgeschlagenen Maßnahmen zur Risikovermeidung, Risikominimierung
-oder dem Abbau der technischen Schulden.
-
-# 12 Glossar
-
-**Inhalt.**
-
-Die wesentlichen fachlichen und technischen Begriffe, die Stakeholder im
-Zusammenhang mit dem System verwenden.
-
-Nutzen Sie das Glossar ebenfalls als Übersetzungsreferenz, falls Sie in
-mehrsprachigen Teams arbeiten.
-
-**Motivation.**
-
-Sie sollten relevante Begriffe klar definieren, so dass alle Beteiligten
-
-1.  diese Begriffe identisch verstehen, und
-
-2.  vermeiden, mehrere Begriffe für die gleiche Sache zu haben.
-
--   Zweispaltige Tabelle mit &lt;Begriff&gt; und &lt;Definition&gt;
-
--   Eventuell weitere Spalten mit Übersetzungen, falls notwendig.
-
-| Begriff | Definition |
-| --- | --- |
-| *&lt;Begriff-1&gt;* | *&lt;Definition-1&gt;* |
-| *&lt;Begriff-2&gt;* | *&lt;Definition-2&gt;* |
-
-
