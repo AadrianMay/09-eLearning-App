@@ -28,11 +28,13 @@ gehören die
 
 ## Aufgabenstellung
 
-- Im Rahmen der Veranstaltung BWI50202 .NET Vertiefung soll eine Webanwendung erstellt werden. Die angestrebte technische Lösung für das Projekt soll folgende Bestandteile enthalten:
-- Frontend (Präsentation + Geschäftslogik): Webanwendung (ASP. NET Core / Java EE)
-- Backend (Geschäftslogik + Datenhaltung): Web Services (ASP .NET Core Web-API / Spring Boot & Java)
-- Siehe Pflichtenheft.md
-- Die Aufgabe liegt darin mit nur wenigen Vorgaben eine Webanwendung zu entwickeln, welche eigenständig konkretisiert und ausgearbeitet werden muss. In diesem Fall wurde eine eigene Projektidee vorgeschlagen und mit dem Dozenten abgestimmt. 
+| Aufgaben |
+| --- |
+| Im Rahmen der Veranstaltung BWI50202 .NET Vertiefung soll eine Webanwendung erstellt werden. Die angestrebte technische Lösung für das Projekt soll folgende Bestandteile enthalten: |
+| Frontend (Präsentation + Geschäftslogik): Webanwendung (ASP. NET Core / Java EE) |
+| Backend (Geschäftslogik + Datenhaltung): Web Services (ASP .NET Core Web-API / Spring Boot & Java) |
+| Siehe auch Pflichtenheft.md |
+| Die Aufgabe liegt darin mit nur wenigen Vorgaben eine Webanwendung zu entwickeln, welche eigenständig konkretisiert und ausgearbeitet werden muss. In diesem Fall wurde eine eigene Projektidee vorgeschlagen und mit dem Dozenten abgestimmt. |
 
 ## Qualitätsziele
 
@@ -63,21 +65,21 @@ gehören die
 
 # 2 Randbedingungen
 
-Technische Vorgaben
+| Technische Vorgaben |
+| --- |
+| Programmiersprache: C#/TypeScript |
+| Framework: Angular |
+| IDE: Visual Studio 2017 |
+| Zielumgebung: Plattformunabhängig (Webanwendung) |
+| Grafische Darstellung: Webbrowser |
 
-- Programmiersprache: C#/TypeScript
-- Framework: Angular
-- IDE: Visual Studio 2017
-- Zielumgebung: Plattformunabhängig (Webanwendung)
-- Grafische Darstellung: Webbrowser
-
-Organisatorische Vorgaben
-
-- Zeitrahmen: Mitte Oktober 2017 bis Mitte Januar 2018 (drei Monate)
-- Team: Gruppe aus vier Studenten
-- Dokumentation: Pflichtenheft und Architekturdokumentation
-- Präsentation: 30 Min. bestehend aus PP-Präs. und Poster
-- Versionsverwaltungssystem: GitHub, Trello (nur intern)
+| Organisatorische Vorgaben |
+| --- |
+| Zeitrahmen: Mitte Oktober 2017 bis Mitte Januar 2018 (drei Monate) |
+| Team: Gruppe aus vier Studenten |
+| Dokumentation: Pflichtenheft und Architekturdokumentation |
+| Präsentation: 30 Min. bestehend aus PP-Präs. und Poster |
+| Versionsverwaltungssystem: GitHub, Trello (nur intern) |
 
 # 3 Kontextabgrenzung
 
