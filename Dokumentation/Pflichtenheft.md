@@ -41,7 +41,6 @@ Bei der technischen Produktumgebung sind folgende Festlegungen zu treffen:
 | /R60/ | Microsoft Visual Studio als IDE in Verbindung mit Angular (TypeScript-basiertes Front-End-Webapplikationsframework) |
 | /R70/ | Computer/Notebook | 
 | /R80/ | Organisatorische Randbedingungen und Voraussetzungen |  
-
 | zu /R80/ | Zeitrahmen: Mitte Oktober 2017 bis Mitte Januar 2018 (ca. drei Monate) |
 | zu /R80/ | Team: Gruppe aus vier Studenten |
 | zu /R80/ | Dokumentation: Pflichtenheft und Architekturdokumentation |
@@ -50,10 +49,12 @@ Bei der technischen Produktumgebung sind folgende Festlegungen zu treffen:
 
 Bei den Anforderungen an die Entwicklungsumgebung sind folgende Festlegungen zu treffen:
 
-- /R90/  Visualstudio 2017 Community
-- /R100/ Computer/Notebook
-- /R110/ GitHub, Trello, Skype  
-- /R120/ Datenbankschnittstelle (DBMS)  
+| Anforderungen an die Entwicklungsumgebung | Beschreibung |
+| --- | --- |
+| /R90 |  Visualstudio 2017 Community |
+| /R100 | Computer/Notebook |
+| /R110 | GitHub, Trello, Skype |  
+| /R120 | Datenbankschnittstelle (DBMS) |  
 
 # 3 Kontext und Überblick
 Festlegung der relevanten Systemumgebung (Kontext) und Überblick über das System:
