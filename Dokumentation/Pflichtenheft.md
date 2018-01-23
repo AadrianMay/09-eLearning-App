@@ -16,6 +16,7 @@ Visionen
 | /V30/ | Eine „eLearning-App zu entwickeln, die eine Alternative zur Prüfungsvorbereitung bietet oder zu mindestens eine (sehr) gute Ergänzung darstellt. |
 
 | Ziele | Beschreibung |
+| --- | --- |
 | /Z10/ | Der Anwender (Student) muss jederzeit Zugriff auf die „eLearning-App“ haben. Die Anwendung soll daher zeit- und ortunabhängig sein. |
 | /Z20/ | Der Anwender (Student) soll die „eLearning-App“ auf allen aktuellen internetfähigen Geräten nutzen können. Die Anwendung soll plattformunabhängig sein. |
 | /Z30/ | Die Anwendung soll möglichst vollständig sein. |
@@ -25,23 +26,27 @@ Visionen
 # 2 Rahmenbedingungen
 Beschreibung der organisatorischen Rahmenbedingungen: Anwendungsbereiche, Zielgruppen, Betriebsbedingungen
 
-- /R10/ Die Anwendung wird von Studenten als Lernhilfe und Prüfungsvorbereitung genutzt.
-- /R20/ Die Zielgruppe der Anwendung sind Studenten der Hochschule Niederrhein im Fachbereich 08 im Studiengang Wirtschaftsinformatik. Eine Ausweitung auf andere Fachbereiche und Studiengänge wäre zu einem späteren Zeitpunkt denkbar. 
-- /R30/ Das Backend Anwendung erfordert einen Webserver der 24 Stunden und 7 Tage die Woche erreichbar ist, das Frontend erfordert ein aktuelles internetfähiges Endgerät (z.B. Computer, Notebook, Smartphone etc.).
-- /R40/ Die eLearning-App soll 24 Stunden und 7 Tage die Woche nutzbar sein.
-- /R50/ unbeaufsichtigter Betrieb, die Anwender (Studenten) sollen die Webanwendung selbständig nutzen können.
+| Rahmenbedingungen | Beschreibung |
+| --- | --- |
+| /R10/ | Die Anwendung wird von Studenten als Lernhilfe und Prüfungsvorbereitung genutzt. |
+| /R20/ | Die Zielgruppe der Anwendung sind Studenten der Hochschule Niederrhein im Fachbereich 08 im Studiengang Wirtschaftsinformatik. Eine Ausweitung auf andere Fachbereiche und Studiengänge wäre zu einem späteren Zeitpunkt denkbar. |
+| /R30/ | Das Backend Anwendung erfordert einen Webserver der 24 Stunden und 7 Tage die Woche erreichbar ist, das Frontend erfordert ein aktuelles internetfähiges Endgerät (z.B. Computer, Notebook, Smartphone etc.). |
+| /R40/ | Die eLearning-App soll 24 Stunden und 7 Tage die Woche nutzbar sein. |
+| /R50/ | unbeaufsichtigter Betrieb, die Anwender (Studenten) sollen die Webanwendung selbständig nutzen können. |
 
 Bei der technischen Produktumgebung sind folgende Festlegungen zu treffen:
 
-- /R60/ Microsoft Visual Studio als IDE in Verbindung mit Angular (TypeScript-basiertes Front-End-Webapplikationsframework)
-- /R70/ Computer/Notebook 
-- /R80/ Organisatorische Randbedingungen und Voraussetzungen  
+| Technische Produktumgebung | Beschreibung |
+| --- | --- |
+| /R60/ | Microsoft Visual Studio als IDE in Verbindung mit Angular (TypeScript-basiertes Front-End-Webapplikationsframework) |
+| /R70/ | Computer/Notebook | 
+| /R80/ | Organisatorische Randbedingungen und Voraussetzungen |  
 
-- Zeitrahmen: Mitte Oktober 2017 bis Mitte Januar 2018 (ca. drei Monate)
-- Team: Gruppe aus vier Studenten
-- Dokumentation: Pflichtenheft und Architekturdokumentation
-- Präsentation: 30 Min. bestehend aus PP-Präs. und Poster
-- Versionsverwaltungssystem: GitHub, Trello (nur intern)
+| zu /R80/ | Zeitrahmen: Mitte Oktober 2017 bis Mitte Januar 2018 (ca. drei Monate) |
+| zu /R80/ | Team: Gruppe aus vier Studenten |
+| zu /R80/ | Dokumentation: Pflichtenheft und Architekturdokumentation |
+| zu /R80/ | Präsentation: 30 Min. bestehend aus PP-Präs. und Poster |
+| zu /R80/ |  Versionsverwaltungssystem: GitHub, Trello (nur intern) |
 
 Bei den Anforderungen an die Entwicklungsumgebung sind folgende Festlegungen zu treffen:
 
