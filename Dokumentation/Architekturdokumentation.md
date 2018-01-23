@@ -174,7 +174,7 @@ Hier folgen jetzt Erläuterungen zu Blackboxen der Ebene 2.
 
 # 7 Verteilungssicht
 
-- siehe: #7_Verteilungssicht.pdf
+![7_Verteilungssicht](%237_Verteilungssicht.png)
 
 # 8 Querschnittliche Konzepte
 
@@ -203,7 +203,7 @@ Qualitätsanforderungen kennen, möglichst konkret und operationalisiert.
 
 ## Qualitätsbaum
 
-siehe: # 9_Qualitätsanforderungen_Qualitätsbaum.pdf
+![7_Qualitätsbaum](%239_Qualitätsanforderungen_Qualitätsbaum.png)
 
 ## Qualitätsszenarien
 
