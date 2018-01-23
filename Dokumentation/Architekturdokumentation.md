@@ -81,8 +81,6 @@ Organisatorische Vorgaben
 
 # 3 Kontextabgrenzung
 
-- siehe: #3_Kontextabgrenzung_Kontextdiagramm.pdf
-
 ![Kontextabgrenzung_Kontextdiagramm](%233_Kontextabgrenzung_Kontextdiagramm.png)
 
 ## Fachlicher Kontext
@@ -170,8 +168,9 @@ Hier folgen jetzt Erläuterungen zu Blackboxen der Ebene 2.
 
 # 6 Laufzeitsicht
 
-- siehe: #6_Aktivitätsdiagramm_Benutzersicht.pdf
-- siehe: #6_Aktivitätsdiagramm_Adminsicht.pdf
+![Aktivitätsdiagramm_Benutzersicht](%236_Aktivitätsdiagramm_Benutzersicht.png)
+
+![Aktivitätsdiagramm_Adminsicht](%236_Aktivitätsdiagramm_Adminsicht.png)
 
 # 7 Verteilungssicht
 
