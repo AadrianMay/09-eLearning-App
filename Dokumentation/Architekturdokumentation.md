@@ -83,6 +83,8 @@ Organisatorische Vorgaben
 
 - siehe: #3_Kontextabgrenzung_Kontextdiagramm.pdf
 
+![Kontextabgrenzung_Kontextdiagramm](#3_Kontextabgrenzung_Kontextdiagramm.pdf)
+
 ## Fachlicher Kontext
 
 - siehe: #3_Fachlicher_Kontext_Frond-_Backend.pdf
