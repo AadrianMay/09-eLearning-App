@@ -12537,7 +12537,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Simon\\.nuget\\packages\\": {},
+    "C:\\Users\\Jari\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -12547,18 +12547,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Progs\\c\\09-eLearning-App\\eLearnapp\\eLearnapp.csproj",
+      "projectUniqueName": "C:\\Users\\Jari\\Source\\Repos\\09-eLearningApp\\eLearnapp\\eLearnapp.csproj",
       "projectName": "eLearnapp",
-      "projectPath": "D:\\Progs\\c\\09-eLearning-App\\eLearnapp\\eLearnapp.csproj",
-      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-      "outputPath": "D:\\Progs\\c\\09-eLearning-App\\eLearnapp\\obj\\",
+      "projectPath": "C:\\Users\\Jari\\Source\\Repos\\09-eLearningApp\\eLearnapp\\eLearnapp.csproj",
+      "packagesPath": "C:\\Users\\Jari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jari\\Source\\Repos\\09-eLearningApp\\eLearnapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -12567,7 +12567,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
