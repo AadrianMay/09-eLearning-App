@@ -30,6 +30,10 @@ export class UserDetailComponent implements OnInit {
         this.kurseService.saveUser(this.user).then(() => this.router.navigate(['/']));
     }
 
+    goToUser(user: User): void {
+        this.router.navigate(['/user', user.userID]);
+    }
+
     /*delete(): void {
         let dialogRef = this.dialog.open(DeleteDialogComponent);
         dialogRef.afterClosed().subscribe(result => {

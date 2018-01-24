@@ -31,3 +31,14 @@ D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.Assembly
 D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.AssemblyInfo.cs
 D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.dll
 D:\Progs\c\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.pdb
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.deps.json
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.runtimeconfig.json
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.runtimeconfig.dev.json
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.dll
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\bin\Debug\netcoreapp2.0\eLearnapp.pdb
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.csprojResolveAssemblyReference.cache
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.csproj.CoreCompileInputs.cache
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.AssemblyInfoInputs.cache
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.AssemblyInfo.cs
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.dll
+C:\Users\nwaleks\source\repos\09-eLearning-App\eLearnapp\obj\Debug\netcoreapp2.0\eLearnapp.pdb

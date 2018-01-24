@@ -36,6 +36,10 @@ export class KursDetailComponent implements OnInit {
         this.kurseService.saveKurs(this.kurs).then(() => this.router.navigate(['/admin/kursmenu'])); //navigiert anschließend auf die Startseite
     }
 
+    kursStarten(kurs: Kurs): void {
+        this.router.navigate(['/abfragen', kurs.kursID]);
+    }
+
     delete(): void {
         let dialogRef = this.dialog.open(DeleteDialogComponent);
         dialogRef.afterClosed().subscribe(result => {

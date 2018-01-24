@@ -1,20 +1,29 @@
 <mat-spinner *ngIf="!kurs || !kategorien"></mat-spinner>
 <form *ngIf="kurs && kategorien" class="kurs-form">
-    <mat-form-field class="full-widht">
+    <mat-form-field class="full-width">
         <input matInput placeholder="name" [(ngModel)]="kurs.name" maxlength="100" name="name" />
         <mat-hint align="right">{{kurs.name.length}} / 100</mat-hint>
     </mat-form-field>
-    <mat-form-field class="full-widht">
+    <mat-form-field class="full-width">
         <textarea matInput placeholder="Beschreibung" [(ngModel)]="kurs.beschreibung" maxlength="250" name="beschreibung"></textarea>
         <mat-hint align="end">/ 250</mat-hint>
     </mat-form-field>
     <mat-form-field>
-        <mat-select class="full-widht select-fix" placeholder="Kategorie" [(ngModel)]="kurs.kategorieID" name="kategorie">
+        <mat-select class="full-width select-fix" placeholder="Kategorie" [(ngModel)]="kurs.kategorieID" name="kategorie">
             <mat-option *ngFor="let kategorie of kategorien" [value]="kategorie.kategorieID">{{kategorie.name}}</mat-option>
         </mat-select>
     </mat-form-field>
     <div>
         <button mat-button (click)="save()">speichern</button>
         <button mat-button (click)="delete()">delete</button>
+        <button mat-button (click)="startKurs()">Kurs starten</button>
     </div>
+    <mat-list>
+        <mat-list-item *ngFor="let abfrage of kurs.abfragen">
+            <h4 mat-line>{{abfrage.frage}}</h4>
+            <div mat-line>
+                <div fxFlex="50">{{abfrage.antwort}}</div>
+            </div>
+        </mat-list-item>
+    </mat-list>
 </form>
